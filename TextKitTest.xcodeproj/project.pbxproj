@@ -15,6 +15,11 @@
 		16B4E4CE1E13491900E2528F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B4E4CC1E13491900E2528F /* LaunchScreen.storyboard */; };
 		16B4E4D91E13491900E2528F /* TextKitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E4D81E13491900E2528F /* TextKitTestTests.m */; };
 		16B4E4E41E13491900E2528F /* TextKitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E4E31E13491900E2528F /* TextKitTestUITests.m */; };
+		16B4E4F31E134F9500E2528F /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E4F21E134F9500E2528F /* CircleView.m */; };
+		16B4E4F61E13868500E2528F /* SyntaxHighlightTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E4F51E13868400E2528F /* SyntaxHighlightTextStorage.m */; };
+		16B4E4FC1E139A9000E2528F /* CircleTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E4FB1E139A9000E2528F /* CircleTextContainer.m */; };
+		16B4E4FF1E13A9EE00E2528F /* ADLinkDetectingTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E4FE1E13A9EE00E2528F /* ADLinkDetectingTextStorage.m */; };
+		16B4E5021E13AA0D00E2528F /* ADOutliningLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5011E13AA0D00E2528F /* ADOutliningLayoutManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		16B4E4DF1E13491900E2528F /* TextKitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextKitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B4E4E31E13491900E2528F /* TextKitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextKitTestUITests.m; sourceTree = "<group>"; };
 		16B4E4E51E13491900E2528F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B4E4F11E134F9500E2528F /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		16B4E4F21E134F9500E2528F /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		16B4E4F41E13868400E2528F /* SyntaxHighlightTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyntaxHighlightTextStorage.h; sourceTree = "<group>"; };
+		16B4E4F51E13868400E2528F /* SyntaxHighlightTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyntaxHighlightTextStorage.m; sourceTree = "<group>"; };
+		16B4E4FA1E139A9000E2528F /* CircleTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleTextContainer.h; sourceTree = "<group>"; };
+		16B4E4FB1E139A9000E2528F /* CircleTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTextContainer.m; sourceTree = "<group>"; };
+		16B4E4FD1E13A9EE00E2528F /* ADLinkDetectingTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLinkDetectingTextStorage.h; sourceTree = "<group>"; };
+		16B4E4FE1E13A9EE00E2528F /* ADLinkDetectingTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLinkDetectingTextStorage.m; sourceTree = "<group>"; };
+		16B4E5001E13AA0D00E2528F /* ADOutliningLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADOutliningLayoutManager.h; sourceTree = "<group>"; };
+		16B4E5011E13AA0D00E2528F /* ADOutliningLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADOutliningLayoutManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				16B4E4C21E13491800E2528F /* AppDelegate.m */,
 				16B4E4C41E13491800E2528F /* ViewController.h */,
 				16B4E4C51E13491800E2528F /* ViewController.m */,
+				16B4E4FD1E13A9EE00E2528F /* ADLinkDetectingTextStorage.h */,
+				16B4E4FE1E13A9EE00E2528F /* ADLinkDetectingTextStorage.m */,
+				16B4E5001E13AA0D00E2528F /* ADOutliningLayoutManager.h */,
+				16B4E5011E13AA0D00E2528F /* ADOutliningLayoutManager.m */,
+				16B4E4FA1E139A9000E2528F /* CircleTextContainer.h */,
+				16B4E4FB1E139A9000E2528F /* CircleTextContainer.m */,
+				16B4E4F41E13868400E2528F /* SyntaxHighlightTextStorage.h */,
+				16B4E4F51E13868400E2528F /* SyntaxHighlightTextStorage.m */,
+				16B4E4F11E134F9500E2528F /* CircleView.h */,
+				16B4E4F21E134F9500E2528F /* CircleView.m */,
 				16B4E4C71E13491800E2528F /* Main.storyboard */,
 				16B4E4CA1E13491800E2528F /* Assets.xcassets */,
 				16B4E4CC1E13491900E2528F /* LaunchScreen.storyboard */,
@@ -207,6 +232,7 @@
 				TargetAttributes = {
 					16B4E4BA1E13491800E2528F = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 28PKFZ46A5;
 						ProvisioningStyle = Automatic;
 					};
 					16B4E4D31E13491900E2528F = {
@@ -273,9 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B4E4F31E134F9500E2528F /* CircleView.m in Sources */,
 				16B4E4C61E13491800E2528F /* ViewController.m in Sources */,
 				16B4E4C31E13491800E2528F /* AppDelegate.m in Sources */,
+				16B4E4FC1E139A9000E2528F /* CircleTextContainer.m in Sources */,
+				16B4E5021E13AA0D00E2528F /* ADOutliningLayoutManager.m in Sources */,
+				16B4E4F61E13868500E2528F /* SyntaxHighlightTextStorage.m in Sources */,
 				16B4E4C01E13491800E2528F /* main.m in Sources */,
+				16B4E4FF1E13A9EE00E2528F /* ADLinkDetectingTextStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +455,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 28PKFZ46A5;
 				INFOPLIST_FILE = TextKitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.TextKitTest;
@@ -435,6 +468,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 28PKFZ46A5;
 				INFOPLIST_FILE = TextKitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.TextKitTest;
@@ -507,6 +542,7 @@
 				16B4E4EA1E13491900E2528F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B4E4EB1E13491900E2528F /* Build configuration list for PBXNativeTarget "TextKitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +551,7 @@
 				16B4E4ED1E13491900E2528F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B4E4EE1E13491900E2528F /* Build configuration list for PBXNativeTarget "TextKitTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +560,7 @@
 				16B4E4F01E13491900E2528F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
